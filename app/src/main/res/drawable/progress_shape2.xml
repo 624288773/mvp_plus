@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="45">
+    <layer-list >
+        <item android:bottom="60dp" android:left="60dp" android:right="12dp" android:top="12dp">
+            <shape android:shape="oval">
+                <size android:width="5dp" android:height="5dp"/>
+                <solid android:color="@color/progress2"/>
+            </shape>
+        </item>
+        <item android:top="60dp" android:left="60dp" android:right="12dp" android:bottom="12dp">
+            <shape android:shape="oval">
+                <size android:width="5dp" android:height="5dp"/>
+                <solid android:color="@color/progress4"/>
+            </shape>
+        </item>
+        <item android:top="60dp" android:right="60dp" android:left="12dp" android:bottom="12dp">
+            <shape android:shape="oval">
+                <size android:width="5dp" android:height="5dp"/>
+                <solid android:color="@color/progress6"/>
+            </shape>
+        </item>
+        <item android:bottom="60dp" android:right="60dp" android:left="12dp" android:top="12dp">
+            <shape android:shape="oval">
+                <size android:width="5dp" android:height="5dp"/>
+                <solid android:color="@color/progress8"/>
+            </shape>
+        </item>
+    </layer-list>
+</rotate>

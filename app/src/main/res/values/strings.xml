@@ -1,0 +1,4 @@
+<resources>
+    <string name="app">MVP</string>
+    <string name="account_digits">1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM</string>
+</resources>

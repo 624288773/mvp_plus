@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <objectAnimator android:duration="50" android:propertyName="elevation" android:valueTo="1" android:valueType="floatType" />
+    </item>
+    <!-- base state -->
+    <item>
+        <objectAnimator android:duration="150" android:propertyName="elevation" android:valueTo="6" android:valueType="floatType" />
+    </item>
+</selector>

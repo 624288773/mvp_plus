@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--标题-->
+    <declare-styleable name="TitleBar">
+        <attr name="text" format="string|reference" />
+        <attr name="btnBackVisibility" format="enum">
+            <enum name="visible" value="0x00000000" />
+            <enum name="invisible" value="0x00000004" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+        <attr name="btnRightVisibility" format="enum">
+            <enum name="visible" value="0x00000000" />
+            <enum name="invisible" value="0x00000004" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+        <attr name="backRes" format="reference" />
+        <attr name="rightRes" format="reference" />
+    </declare-styleable>
+
+    <!--单项显示-->
+    <declare-styleable name="ItemView">
+        <attr name="iconVisibility" format="enum">
+            <enum name="visible" value="0x00000000" />
+            <enum name="invisible" value="0x00000004" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+        <attr name="iconRes" format="reference" />
+        <attr name="text1" format="reference|string" />
+        <attr name="text2" format="reference|string" />
+        <attr name="text1Color" format="reference|color" />
+        <attr name="text2Color" format="reference|color" />
+        <attr name="text3" format="reference|string" />
+        <attr name="text4" format="reference|string" />
+        <attr name="button1Visibility" format="enum">
+            <enum name="visible" value="0x00000000" />
+            <enum name="invisible" value="0x00000004" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+        <attr name="cbChecked" format="boolean" />
+        <attr name="cbVisibility" format="enum">
+            <enum name="visible" value="0x00000000" />
+            <enum name="invisible" value="0x00000004" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+        <attr name="lineVisibility" format="enum">
+            <enum name="visible" value="0x00000000" />
+            <enum name="invisible" value="0x00000004" />
+            <enum name="gone" value="0x00000008" />
+        </attr>
+    </declare-styleable>
+</resources>

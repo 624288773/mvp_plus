@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/progress_shape" android:duration="130">
+    </item>
+    <item android:duration="160">
+        <rotate android:fromDegrees="45" android:drawable="@drawable/progress_shape"/>
+    </item>
+    <item android:duration="150">
+        <rotate android:fromDegrees="90" android:drawable="@drawable/progress_shape"/>
+    </item>
+    <item android:duration="140">
+        <rotate android:fromDegrees="135" android:drawable="@drawable/progress_shape"/>
+    </item>
+    <item android:duration="130">
+        <rotate android:fromDegrees="180" android:drawable="@drawable/progress_shape"/>
+    </item>
+    <item android:duration="120">
+        <rotate android:fromDegrees="225" android:drawable="@drawable/progress_shape"/>
+    </item>
+    <item android:duration="110">
+        <rotate android:fromDegrees="270" android:drawable="@drawable/progress_shape"/>
+    </item>
+    <item android:duration="100">
+        <rotate android:fromDegrees="315" android:drawable="@drawable/progress_shape"/>
+    </item>
+</animation-list>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:layout_marginBottom="5dp"
+    android:elevation="5dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/btnBack"
+        style="@style/TitleButton">
+
+        <TextView
+            android:id="@+id/tvTipsBack"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tips_red_circle"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            android:visibility="gone"
+            tools:text="5" />
+
+        <ImageView
+            android:id="@+id/ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_back_white" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:id="@+id/tvTitle"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:text="标题" />
+
+    <RelativeLayout
+        android:layout_alignParentRight="true"
+        android:id="@+id/btnRight"
+        style="@style/TitleButton"
+        android:visibility="gone">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/tvTipsRight"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/tips_red_circle"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="13dp"
+            tools:text="5" />
+
+        <ImageView
+            android:id="@+id/ivRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            tools:src="@drawable/ic_person_white" />
+    </RelativeLayout>
+</RelativeLayout>

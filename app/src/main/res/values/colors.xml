@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#007AFF</color>
+    <color name="colorAccent">#007AFF</color>
+    <color name="blueLight">#208cef</color>
+    <color name="red">#FFFF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray1">#000000</color>
+    <color name="gray15">#151515</color>
+    <color name="gray3">#333333</color>
+    <color name="gray45">#454545</color>
+    <color name="gray6">#666666</color>
+    <color name="gray75">#757575</color>
+    <color name="gray9">#999999</color>
+    <color name="graya5">#a5a5a5</color>
+    <color name="graye">#eeeeee</color>
+    <color name="grayf3">#F3F3F3</color>
+
+    <color name="black33">#33000000</color>
+    <color name="white88">#88FFFFFF</color>
+    <color name="gray33">#33888888</color>
+
+    <color name="progress1">#0000FF</color>
+    <color name="progress2">#1515FF</color>
+    <color name="progress3">#3333FF</color>
+    <color name="progress4">#4545FF</color>
+    <color name="progress5">#6666FF</color>
+    <color name="progress6">#7575FF</color>
+    <color name="progress7">#9999FF</color>
+    <color name="progress8">#a5a5FF</color>
+</resources>
